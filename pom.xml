@@ -11,6 +11,7 @@
   </properties>
 
   <dependencies>
+    <!-- Cucumber Java -->
     <dependency>
       <groupId>io.cucumber</groupId>
       <artifactId>cucumber-java</artifactId>
@@ -26,14 +27,7 @@
       <scope>test</scope>
     </dependency>
 
-    <!-- Selenium -->
-    <dependency>
-      <groupId>org.seleniumhq.selenium</groupId>
-      <artifactId>selenium-java</artifactId>
-      <version>4.24.0</version> <!-- Sau cea mai recentă versiune -->
-    </dependency>
-
-    <!-- JUnit -->
+    <!-- JUnit Jupiter (pentru execuția testelor) -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
@@ -46,6 +40,13 @@
       <artifactId>junit-jupiter-engine</artifactId>
       <version>5.9.3</version>
       <scope>test</scope>
+    </dependency>
+
+    <!-- Selenium -->
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>4.24.0</version> <!-- Sau cea mai recentă versiune -->
     </dependency>
   </dependencies>
 
